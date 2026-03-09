@@ -13,7 +13,6 @@ Predictive Analytics/
 ├── MSIN0097 Individual Assignment.ipynb   # Main notebook (Sections 1-6)
 ├── requirements.txt                       # Python package dependencies
 ├── README.md                              # This file
-└── MSIN0097_Individual_ReportFinal.pdf     # Coursework report (exported to PDF)
 ```
 
 ## Dataset
