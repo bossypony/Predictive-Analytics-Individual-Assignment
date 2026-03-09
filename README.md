@@ -11,7 +11,6 @@ The final model is a tuned XGBoost classifier achieving a test F1-score of 0.703
 ```
 Predictive Analytics/
 ├── MSIN0097 Individual Assignment.ipynb   # Main notebook (Sections 1-6)
-├── aac_intakes_outcomes.csv               # Austin Animal Center dataset
 ├── requirements.txt                       # Python package dependencies
 ├── README.md                              # This file
 └── MSIN0097_Individual_ReportFinal.pdf     # Coursework report (exported to PDF)
@@ -20,19 +19,16 @@ Predictive Analytics/
 ## Dataset
 
 - **Source:** Austin Animal Center Intakes and Outcomes (public dataset)
-- **File:** `aac_intakes_outcomes.csv`
 - **Records:** ~131,000 intake-outcome pairs
 - **Target variable:** Binary adoption outcome (Adopted = 1, Not Adopted = 0)
 
 ### How to obtain the data
 
 1. Download from [Kaggle](https://www.kaggle.com/datasets/aaronschlegel/austin-animal-center-shelter-intakes-and-outcomes).
-2. Rename the file to `aac_intakes_outcomes.csv` (if it is not already named this).
 3. Place it in the **same directory** as the notebook.
 
 The notebook loads the data using a relative path:
 ```python
-df = pd.read_csv('aac_intakes_outcomes.csv')
 ```
 The notebook will fail immediately if the file is missing or misnamed.
 
